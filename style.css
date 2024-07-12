@@ -1,56 +1,67 @@
-.rian{
-    width: 700px;
-    height: 70vh;
-    background-color: rebeccapurple;
-    border-radius: 10px;
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.one {
+    display: flex;
     border: 1px solid;
-    font-size: 15vw;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 25px;
-
+    width: 100vw;
+    height: 400px;
 }
 
-.hasan{
-    width: 1400px;
-    height: 70vh;
-    background-color: rgb(48, 138, 126);
-    border-radius: 10px;
+
+.two {
+    display: flex;
     border: 1px solid;
-    font-size: 15vw;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin:25px;
+    margin-top: 20px;
+    width: 100vw;
+    height: 400px;
 }
 
-main{
-    display: flex;
-
+h3{
+    font-size: 11em;
 }
-
+p{
+    font-size: 2em;
+}
+button{
+    width: 100px;
+    height: 50px;
+    margin-top: 21px;
+}
 
 
 
 @media only screen and (max-width:450px){
 
+    .one{
+        display: flex;
+        flex-direction: column;
 
-main{
-    display: flex;
-    flex-direction: column;
-   
-
+    }
+h3{
+    font-size: 3em;
+    margin-top: 24px;
 }
-.rian{
-    width: 100vw;
-    margin: 10px 0px;
+p{
+    font-size: 1em;
+    margin-top: 10px;
 }
-.hasan{
-    width: 100vw;
-    margin: 10px 0px;
-}
+    img{
+        width: 100vw;
+    }
 
 
+    .two{
+        display: flex;
+        flex-direction: column;
+        margin-top: 80px;
+    }
+section{
+    height: 662px !important;
+    text-align: center;
+    border: none !important;
+}
 
 }
