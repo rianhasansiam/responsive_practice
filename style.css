@@ -1,0 +1,54 @@
+.rian{
+    width: 700px;
+    height: 70vh;
+    background-color: rebeccapurple;
+    border-radius: 10px;
+    border: 1px solid;
+    font-size: 15vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 25px;
+
+}
+
+.hasan{
+    width: 1400px;
+    height: 70vh;
+    background-color: rgb(48, 138, 126);
+    border-radius: 10px;
+    border: 1px solid;
+    font-size: 15vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:25px;
+}
+
+main{
+    display: flex;
+
+}
+
+
+
+
+@media only screen and (max-width:450px){
+
+
+main{
+    display: flex;
+    flex-direction: column;
+   
+
+}
+.rian{
+    width: 100vw;
+}
+.hasan{
+    width: 100vw;
+}
+
+
+
+}
